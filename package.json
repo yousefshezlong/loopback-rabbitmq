@@ -1,5 +1,5 @@
 {
-  "name": "loopback-rabbitmq",
+  "name": "loopback-rabbitmq-legacy",
   "version": "1.1.6-0",
   "description": "loopback-rabbitmq",
   "keywords": [
@@ -27,11 +27,6 @@
     "test:dev": "lb-mocha --allow-console-logs dist/__tests__/**/*.js && npm run posttest",
     "clean": "lb-clean dist *.tsbuildinfo .eslintcache"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/alexnfsc175/loopback-rabbitmq"
-  },
-  "author": "Alex Pereira | Getconnect",
   "license": "",
   "files": [
     "README.md",
